@@ -1,0 +1,54 @@
+/* Conteneur principal */
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #ffffff;
+  text-align: left;
+  min-height: 100vh;
+}
+
+/* Titres */
+.App h1 {
+  color: #0b5c7a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.App h2,
+.App h3,
+.App h4 {
+  color: #0b5c7a;
+  margin-bottom: 6px;
+}
+
+/* Séparateurs */
+.App hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Liste de courses */
+.App ul {
+  padding-left: 20px;
+}
+
+.App li {
+  margin-bottom: 4px;
+}
+
+/* Bouton */
+.App button {
+  background-color: #0b5c7a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.App button:hover {
+  background-color: #08435a;
+}
